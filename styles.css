@@ -1,0 +1,114 @@
+.row-header
+{
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+
+.row-content
+{
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer
+{
+    background-color: #d1C4E9;
+    margin: 0px auto;
+    padding:20px 0px 20px 0px;
+}
+.jumbotron
+{
+    padding:70px 30px;
+    margin:0px;
+    background: #9575cd;
+    color: floralwhite;
+}
+.address
+{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+body{
+        padding:50px 0px 0px 0px;
+        z-index:0;
+}
+.body
+{
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+}
+.navbar-dark{
+    background-color: #512DAB;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+  
+  .image {
+    opacity: 1;
+    width: 80%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .containr
+  {
+      margin-bottom: 50px;
+  }
+  .containr:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containr:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  @media (max-width: 992px) 
+  {
+    .hello
+    {
+        font-size:32px;
+    }
+  }
+  @media (min-width: 992px)
+  {
+
+    .hello
+   {    font-size:2vw;
+    }
+  }
+
+ #carouselExampleIndicators
+ {
+     max-height:550px;
+     width: 100vw;
+ }
+ .carousel-item
+ {
+    max-height:550px;
+    width: 100%;
+ }
+ 
